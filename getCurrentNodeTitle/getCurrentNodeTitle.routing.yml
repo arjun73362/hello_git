@@ -1,0 +1,7 @@
+getCurrentNodeTitle.nodetitle:
+  path: 'nodetitle'
+  defaults:
+    _controller: '\Drupal\getCurrentNodeTitle\Controller\myController::nodetitle'
+    _title: 'List of Current Node Title'
+  requirements:
+    _permission: 'access content'
